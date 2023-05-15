@@ -56,7 +56,14 @@ fn main() {
         let y: f64 = 1.5;
         // let z = x / y;
         let z = (x as f64) / y;
-        println!("The Value of remainder is : {}", z);
+        println!("The Value of z is : {}", z);
+        
+        // 論理値型
+        let t = true;
+        println!("The Value of t is : {}", t);
+
+        let f: bool = false; // with explicit type annotation
+        println!("The Value of t is : {}", f);
     }
 
 }
